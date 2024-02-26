@@ -35,14 +35,14 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 #nav-1 {
-  font-size: 0.5rem;
+  font-size: 0.5vw;
   font-family: meet;
 }
 #nav-2 img {
-  width: 50%;
+  width: 10vw;
 }
 #nav-3 i {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: rgba(0, 0, 0, 0.5);
 }
 #page1-main {
@@ -79,12 +79,12 @@ body {
 }
 .elemh2 {
   font-family: joy;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   padding: 1vw 0vw;
 }
 .elemh2 span {
   font-family: joy;
-  font-size: 1rem;
+  font-size: 1vw;
   padding: 0.3vw 0.3vw;
   color: white;
   background-color: red;
@@ -92,23 +92,23 @@ body {
 }
 .elemp {
   font-family: jay;
-  font-size: 1.225rem;
+  font-size: 1.225vw;
 }
 #page1-main2 {
   text-align: center;
 }
 #page1-main2 h2 {
-  font-size: 3rem;
+  font-size: 3vw;
   font-family: joy;
 }
 #page1-main2 p {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   font-family: jay;
   font-weight: 100;
   padding: 1vw 0vw;
 }
 #page1-main2 span {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-family: jay;
   font-weight: 100;
 }
@@ -116,7 +116,7 @@ body {
   width: 96%;
   margin-right: 2%;
   margin-left: 2%;
-  font-size: 30rem;
+  font-size: 30vw;
   font-family: joy;
   color: #cdc6be;
   background-color: black;
@@ -137,14 +137,14 @@ body {
 #page2-left h2 {
   text-align: center;
   font-family: joy;
-  font-size: 12rem;
+  font-size: 12vw;
   font-weight: 600;
-  line-height: 7rem;
+  line-height: 7vw;
   padding-bottom: 3vw;
 }
 #page2-left h2 span {
   font-family: jay;
-  font-size: 6rem;
+  font-size: 6vw;
   font-weight: 600;
   letter-spacing: -1px;
 }
@@ -154,7 +154,7 @@ body {
 }
 #page2-left p {
   font-family: meet;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 100;
   padding: 2vw 0vw;
 }
@@ -170,7 +170,7 @@ body {
 }
 #page2-right p {
   font-family: joy;
-  font-size: 7rem;
+  font-size: 7vw;
   padding: 2vw 0vw;
 }
 #page-3 {
