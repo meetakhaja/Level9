@@ -4,64 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="main">
       <div id="page-1">
-        <div id="navbar">
-          <div id="nav-1"><h1>Amsterdam, NL</h1></div>
-          <div id="nav-2">
-            <img src="/img/5f7f87c8b81a6e7a214312f0_header.svg" alt="" />
-          </div>
-          <div id="nav-3"><i class="ri-menu-line"></i></div>
+        <div id="nav">
+          <span>Amsterdam, NL</span>
+          <img src="/img/5f7f87c8b81a6e7a214312f0_header.svg" alt="" />
+          <i class="ri-menu-line"></i>
         </div>
-        <div id="page1-main">
-          <div id="page1-main1">
-            <img
-              class="elemimg"
-              src="/img/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg"
-              alt=""
-            />
-            <h2 class="elemh2">AVRO|KO <span>NEW</span></h2>
-            <p class="elemp">
+        <div id="elems">
+          <div id="elems1">
+            <div id="img">
+              <img
+                src="/img/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg"
+                alt=""
+              />
+            </div>
+            <h4>AVRO|KO&nbsp;&nbsp;<span>NEW</span></h4>
+            <p>
               AvroKO is an award-winning global design firm, established itself
               as a global leader in interior architecture for hospitality,
               restaurant and bars.
             </p>
           </div>
-          <div id="page1-main2">
-            <h2>ALL WORK !</h2>
-            <p>
-              A Featured selection <br />the latest work – <br />of the last
-              years.
-            </p>
-            <span><b>tip! </b>Drag sideways to navigate</span>
+          <div id="elems2">
+            <h2>ALL WORK!</h2>
+            <h3>A Featured selection the latest work-of the last years.</h3>
+            <p><span>tip!</span>Drag sideways to navigate</p>
           </div>
-          <div id="page1-main3">
-            <img
-              class="elemimg"
-              src="/img/645b5439577bd35377de8c43_thumbnail-small.webp"
-              alt=""
-            />
-            <h2 class="elemh2">THE ROGER HUB <span>NEW</span></h2>
-            <p class="elemp">
+          <div id="elems3">
+            <div id="img">
+              <img
+                src="/img/645b5439577bd35377de8c43_thumbnail-small.webp"
+                alt=""
+              />
+            </div>
+            <h4>THE ROGER HUB&nbsp;&nbsp;<span>NEW</span></h4>
+            <p>
               The Roger Hub is an immersive web experience showcasing the
               tennis-inspired 'On' sneakers, a collaboration born out of a
               partnership with the legendary Roger Federer.
             </p>
           </div>
         </div>
-        <div id="page1-heading"><h1>MIRANDA</h1></div>
+        <h1>MIRANDA</h1>
       </div>
       <div id="page-2">
-        <div id="page2-left">
-          <h2><span>INTERACTIVE</span><br />ARTIST!</h2>
+        <div id="page-2-left">
+          <h4>INTERACTIVE <br /><span>ARTIST!</span></h4>
           <img
             src="/img/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg"
             alt=""
@@ -72,7 +72,7 @@
             coding for companies and agencies around the world.
           </p>
         </div>
-        <div id="page2-right">
+        <div id="page-2-right">
           <img
             src="/img/605c62f4c78c4ba46a1268be_avatar-1-p-1600.jpeg"
             alt=""
@@ -83,9 +83,54 @@
           </p>
         </div>
       </div>
-      <div id="page-3"></div>
+      <div id="page-3">
+        <section>
+          <h1>WEBSITE</h1>
+          <img src="/img/60474834660f934090d42877_stamp.png" alt="" />
+        </section>
+      </div>
+      <div id="page-4">
+        <div id="page-4-left">
+          <div id="p4l-top"></div>
+          <section>
+            <img src="/img/605c679f33f67d3dd00b04b4_avatar-3.jpeg" alt="" />
+          </section>
+        </div>
+        <div id="page-4-right">
+          <h4>
+            THINK,CREATE <br />
+            <span>DELIVER</span>
+          </h4>
+          <p>
+            A strong project is created by deep collaboration. I design,
+            develop, and deliver websites that drive results and win awards.
+            <br />
+            <br />
+            Like an artisan, I like to start from raw matter and give life to an
+            iconic product that makes your brand stand out, starting from a
+            Visual Strategy that guide the client’s vision to reality.
+          </p>
+          <div id="gola">
+            <img src="/icon/61001a3509319b6ae39e156b_arrow-long.svg" alt="" />
+            <h1>ALL WORK</h1>
+          </div>
+        </div>
+      </div>
+      <div id="page-5">
+        <h1>Let's create something together <span>EMAIL ME</span></h1>
+        <h1>Let's create something together <span>EMAIL ME</span></h1>
+        <h1>Let's create something together <span>EMAIL ME</span></h1>
+      </div>
+      <div id="page-6"></div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="/script.js"></script>
   </body>
 </html>
